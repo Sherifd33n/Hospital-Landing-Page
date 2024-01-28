@@ -1,0 +1,630 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospital Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-content">
+        <div class="nav-top">
+          <div class="logo">
+            <img src="./assets/img/header/logo.svg" />
+          </div>
+          <div class="menu-btn">
+            <img src="./assets/icons/bx-menu.svg" />
+          </div>
+          <div class="details">
+            <div>
+              <img src="./assets/img/header/location.png" />
+              <p>100, Unilorin Road, Ilorin.</p>
+            </div>
+            <div>
+              <img src="./assets/img/header/phone.png" />
+              <p>(+234) 000 000 0000</p>
+            </div>
+            <a class="book" href="#appointment">BOOK NOW</a>
+          </div>
+        </div>
+
+        <div class="nav-bottom">
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#doctors">Doctors</a></li>
+            <li><a href="#lab">Department</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#footer">Contacts</a></li>
+          </ul>
+          <div>
+            <img src="./assets/img/header/search.png" />
+            <input type="search" placeholder="Search..." />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home">
+      <div class="left">
+        <div class="live">
+          <img src="./assets/img/hero/heart.png" />
+          <p>LIVE YOUR LIFE</p>
+        </div>
+        <p class="big-text">We Care About Your Heart</p>
+        <p class="small-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+          adipisci repellat dicta necessitatibus doloremque. Placeat illo eius .
+        </p>
+        <a href="#">CONTACT US</a>
+      </div>
+
+      <div class="right">
+        <img src="./assets/img/hero/img.png" />
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="top">
+        <div class="content">
+          <p class="number">+5120</p>
+          <p class="text">Happy Patients</p>
+        </div>
+
+        <div class="content">
+          <p class="number">+23</p>
+          <p class="text">Total Branches</p>
+        </div>
+
+        <div class="content">
+          <p class="number">+53</p>
+          <p class="text">Senior Doctors</p>
+        </div>
+
+        <div class="content">
+          <p class="number">+10</p>
+          <p class="text">Years Experience</p>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <div class="content">
+          <div class="content-top">
+            <p class="left">Our Best Services For Your Solution</p>
+            <p class="right">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              perferendis facere, eveniet, beatae quos quaerat ad numquam est
+              aliquid ipsa unde! Dicta aut.
+            </p>
+          </div>
+          <div class="content-bottom">
+            <div class="content">
+              <img src="./assets/icons/services/icon-1.svg" />
+              <p class="big-text">General Practitioners</p>
+              <p class="small-text">
+                Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor
+                adipisicing elit.
+              </p>
+            </div>
+            <div class="content">
+              <img src="./assets/icons/services/icon-2.svg" />
+              <p class="big-text">Pregnancy Support</p>
+              <p class="small-text">
+                Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor
+                adipisicing elit.
+              </p>
+            </div>
+            <div class="content">
+              <img src="./assets/icons/services/icon-3.svg" />
+              <p class="big-text">Nutritional Support</p>
+              <p class="small-text">
+                Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor
+                adipisicing elit.
+              </p>
+            </div>
+            <div class="content">
+              <img src="./assets/icons/services/icon-4.svg" />
+              <p class="big-text">Pharmaceutical Care</p>
+              <p class="small-text">
+                Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor
+                adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="appointment" id="appointment">
+      <p class="big-text">
+        Book Appointment Or Call: <span>(+234) 000 000 0000</span>
+      </p>
+      <div class="content">
+        <select>
+          <option value="">Select Department</option>
+          <option value="">Psychology</option>
+          <option value="">Physiotherapy</option>
+          <option value="">Acupuncture</option>
+        </select>
+        <select>
+          <option value="">Select A Doctor</option>
+          <option value="">Dr Hikmat Ojetola</option>
+          <option value="">Dr Rodiah Tijanniy</option>
+          <option value="">Dr Fodilah Oduntan</option>
+          <option value="">Dr Mohammed Mujib</option>
+          <option value="">Dr Sulaimon Osunbiyi</option>
+        </select>
+        <input type="text" placeholder="Full Name" />
+        <input type="number" placeholder="Phone Number" />
+        <input
+          type="text"
+          placeholder="Choose Date"
+          onfocus="this.type='date'"
+          onblur="this.type='text'"
+        />
+        <input
+          type="text"
+          placeholder="Choose Time"
+          onfocus="this.type='time'"
+          onblur="this.type='text'"
+        />
+      </div>
+      <div><a href="#">BOOK AN APPOINTMENT</a></div>
+    </section>
+
+    <section class="testimonial">
+      <div class="left">
+        <img src="./assets/img/testimonials/img.png" />
+      </div>
+      <div class="right">
+        <div class="content">
+          <p>
+            <img src="./assets/icons/testimonials/quote-left.svg" />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            quia excepturi quisquam quibusdam perspiciatis harum culpa iure,
+            beatae voluptatum neque, doloribus.
+            <img src="/assets/icons/testimonials/quote-right.svg" />
+          </p>
+          <p class="name">Abdul Basit</p>
+          <p class="label">CUSTOMER</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="doctors" id="doctors">
+      <p class="big-text">Our Team</p>
+
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./assets/img/team/doctor-2.png" />
+            <div class="text">
+              <p class="name">Dr. Mohammed Mujib</p>
+              <p class="label">Cardiologist</p>
+              <p class="small-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores quia excepturi quisquam quibusdam.
+              </p>
+              <div class="socials">
+                <a href="#"><img src="./assets/icons/facebook (1).png" /></a>
+                <a href="#"><img src="./assets/icons/instagram (2).png" /></a>
+                <a href="#"><img src="./assets/icons/twitter (2).png" /></a>
+                <a href="#"><img src="./assets/icons/youtube (1).png" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/img/team/doctor-1.png" />
+            <div class="text">
+              <p class="name">Dr. Hikmah Ojetola</p>
+              <p class="label">Psychiatrist</p>
+              <p class="small-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores quia excepturi quisquam quibusdam.
+              </p>
+              <div class="socials">
+                <a href="#"><img src="./assets/icons/facebook (1).png" /></a>
+                <a href="#"><img src="./assets/icons/instagram (2).png" /></a>
+                <a href="#"><img src="./assets/icons/twitter (2).png" /></a>
+                <a href="#"><img src="./assets/icons/youtube (1).png" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/img/team/doctor-2.png" />
+            <div class="text">
+              <p class="name">Dr. Sulaimon Osunbiyi</p>
+              <p class="label">Dentist</p>
+              <p class="small-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores quia excepturi quisquam quibusdam.
+              </p>
+              <div class="socials">
+                <a href="#"><img src="./assets/icons/facebook (1).png" /></a>
+                <a href="#"><img src="./assets/icons/instagram (2).png" /></a>
+                <a href="#"><img src="./assets/icons/twitter (2).png" /></a>
+                <a href="#"><img src="./assets/icons/youtube (1).png" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/img/team/doctor-1.png" />
+            <div class="text">
+              <p class="name">Dr. Rodiah Tijanniy</p>
+              <p class="label">Neorologist</p>
+              <p class="small-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores quia excepturi quisquam quibusdam.
+              </p>
+              <div class="socials">
+                <a href="#"><img src="./assets/icons/facebook (1).png" /></a>
+                <a href="#"><img src="./assets/icons/instagram (2).png" /></a>
+                <a href="#"><img src="./assets/icons/twitter (2).png" /></a>
+                <a href="#"><img src="./assets/icons/youtube (1).png" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/img/team/doctor-1.png" />
+            <div class="text">
+              <p class="name">Dr. Fodial Oduntan</p>
+              <p class="label">Scientist</p>
+              <p class="small-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores quia excepturi quisquam quibusdam.
+              </p>
+              <div class="socials">
+                <a href="#"><img src="./assets/icons/facebook (1).png" /></a>
+                <a href="#"><img src="./assets/icons/instagram (2).png" /></a>
+                <a href="#"><img src="./assets/icons/twitter (2).png" /></a>
+                <a href="#"><img src="./assets/icons/youtube (1).png" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/img/team/doctor-2.png" />
+            <div class="text">
+              <p class="name">Dr. Basit Luqman</p>
+              <p class="label">Cardiologist</p>
+              <p class="small-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores quia excepturi quisquam quibusdam.
+              </p>
+              <div class="socials">
+                <a href="#"><img src="./assets/icons/facebook (1).png" /></a>
+                <a href="#"><img src="./assets/icons/instagram (2).png" /></a>
+                <a href="#"><img src="./assets/icons/twitter (2).png" /></a>
+                <a href="#"><img src="./assets/icons/youtube (1).png" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/img/team/doctor-1.png" />
+            <div class="text">
+              <p class="name">Dr. Aishat Aminu</p>
+              <p class="label">Anatomist</p>
+              <p class="small-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores quia excepturi quisquam quibusdam.
+              </p>
+              <div class="socials">
+                <a href="#"><img src="./assets/icons/facebook (1).png" /></a>
+                <a href="#"><img src="./assets/icons/instagram (2).png" /></a>
+                <a href="#"><img src="./assets/icons/twitter (2).png" /></a>
+                <a href="#"><img src="./assets/icons/youtube (1).png" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <p class="big-text">We've Got Answers</p>
+
+      <div class="faq-content">
+        <div class="content">
+          <div class="question">
+            Why To Believe In inSolve Medical Healthcare?
+          </div>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor harum culpa maiores fugit. Excepturi optio
+              sapiente aperiam eum! Neque, praesentium architecto molestiae
+              voluptatibus accusamus Lorem ipsum dolor harum culpa maiores
+              fugit. Excepturi optio sapiente aperiam eum! Neque, praesentium
+              architecto molestiae voluptatibus accusamus.
+            </p>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="question">Why Should We Choose inSolve ?</div>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor harum culpa maiores fugit. Excepturi optio
+              sapiente aperiam eum! Neque, praesentium architecto molestiae
+              voluptatibus accusamus Lorem ipsum dolor harum culpa maiores
+              fugit. Excepturi optio sapiente aperiam eum! Neque, praesentium
+              architecto molestiae voluptatibus accusamus.
+            </p>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="question">
+            Will We Get Healthcare Updates After Surgery?
+          </div>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor harum culpa maiores fugit. Excepturi optio
+              sapiente aperiam eum! Neque, praesentium architecto molestiae
+              voluptatibus accusamus Lorem ipsum dolor harum culpa maiores
+              fugit. Excepturi optio sapiente aperiam eum! Neque, praesentium
+              architecto molestiae voluptatibus accusamus.
+            </p>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="question">When Time Will I Get Better After Surgery?</div>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor harum culpa maiores fugit. Excepturi optio
+              sapiente aperiam eum! Neque, praesentium architecto molestiae
+              voluptatibus accusamus Lorem ipsum dolor harum culpa maiores
+              fugit. Excepturi optio sapiente aperiam eum! Neque, praesentium
+              architecto molestiae voluptatibus accusamus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab" id="lab">
+      <div class="left">
+        <p class="lab-list active first">laboratory analysis</p>
+        <p class="lab-list second">cardiology clinic</p>
+        <p class="lab-list third">gynecology clinic</p>
+        <p class="lab-list fourth">pathology clinic</p>
+        <p class="lab-list fifth">pediatrics clinic</p>
+        <p class="lab-list sixth">neurology clinic</p>
+      </div>
+      <div class="right">
+        <p class="big-text">Laboratory Analysis</p>
+        <div class="small-text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+          officiis, reprehenderit nemo quo porro quia tempore possimus ad iusto
+          ea aliquid iste et corrupti sequi sint corporis dolorum dolor
+          laboriosam. <br /><br />
+
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+          officiis, reprehenderit nemo quo porro quia tempore possimus ad iusto
+          ea aliquid iste et corrupti sequi sint corporis dolorum dolor
+          laboriosam.
+        </div>
+
+        <div class="neuro">
+          <p>Neurocritical Care</p>
+          <p>Neuro Oncology</p>
+          <p>Geriatric Neurology</p>
+        </div>
+
+        <a href="#">learn more</a>
+      </div>
+    </section>
+
+    <section class="post" id="blog">
+      <p class="big-text">Our Recent Posts</p>
+      <div class="down">
+        <div class="content">
+          <div class="overlay-content">
+            <p class="overlay">medical</p>
+            <img src="./assets/img/blog/img-1.png" />
+          </div>
+
+          <div class="text">
+            <p class="text-date">Jan 27, 2024</p>
+            <p class="text-big-text">10 Foods To Avoid For Your Heart Health</p>
+            <p class="text-small-text">
+              Lorem ipsum dolor sit amet consectetur elit. Illo porro
+              necessitatibus voluptatum illum dolores fugit excepturi...<a
+                href="#"
+                >Read More</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="overlay-content">
+            <p class="overlay">mental health</p>
+            <img src="./assets/img/blog/img-2.png" />
+          </div>
+
+          <div class="text">
+            <p class="text-date">Jan 27, 2024</p>
+            <p class="text-big-text">
+              How To Be Relax & Calm In Hard Situations
+            </p>
+            <p class="text-small-text">
+              Lorem ipsum dolor sit amet consectetur elit. Illo porro
+              necessitatibus voluptatum illum dolores fugit excepturi...<a
+                href="#"
+                >Read More</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="overlay-content">
+            <p class="overlay">dental</p>
+            <img src="./assets/img/blog/img-3.png" />
+          </div>
+
+          <div class="text">
+            <p class="text-date">Jan 27, 2024</p>
+            <p class="text-big-text">Best Ways To Make Your Teeth Strong</p>
+            <p class="text-small-text">
+              Lorem ipsum dolor sit amet consectetur elit. Illo porro
+              necessitatibus voluptatum illum dolores fugit excepturi...<a
+                href="#"
+                >Read More</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="brand">
+      <img src="./assets/img/brands/brand-1.svg" />
+      <img src="./assets/img/brands/brand-2.svg" />
+      <img src="./assets/img/brands/brand-3.svg" />
+      <img src="./assets/img/brands/brand-4.svg" />
+    </section>
+
+    <section class="newsletter">
+      <p class="news">our newsletter</p>
+      <div class="bottom">
+        <div class="left">
+          <p>Subscribe To Get More Updates</p>
+        </div>
+        <div class="right">
+          <div class="right-input">
+            <input type="email" placeholder="Your Email Address" />
+            <button type="submit">subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="top">
+        <div class="first">
+          <div class="logo">
+            <img src="./assets/img/header/logo.svg" />
+          </div>
+          <p class="logo-text">
+            Lorem ipsum dolor sit, amet<br />
+            consectetur amet consectetur.
+          </p>
+
+          <div class="footer-icons">
+            <div class="footer-icon">
+              <img src="./assets/icons/location-black.png" />
+              <p>100, Unilorin Road, Ilorin.</p>
+            </div>
+            <div class="footer-icon">
+              <img src="./assets/icons/mail-white.png" />
+              <p>email@sherifd33n.com</p>
+            </div>
+            <div class="footer-icon">
+              <img src="./assets/icons/phone-black.png" />
+              <p>(+234) 000 000 0000</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="second">
+          <p>Quick Links</p>
+
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Doctors</a></li>
+            <li><a href="#">Department</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Our Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Faqs</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="third">
+          <p>Opening Hours</p>
+          <div class="opening">
+            <div class="opening-content">
+              <div class="left">Monday - Thursday</div>
+              <div class="right">8:00 Am - 6:00 Pm</div>
+            </div>
+            <div class="opening-content">
+              <div class="left">Friday - Saturday</div>
+              <div class="right">10:00 Am - 4:00 Pm</div>
+            </div>
+            <div class="opening-content">
+              <div class="left">Sunday</div>
+              <div class="right">Emergency Only</div>
+            </div>
+            <div class="opening-content">
+              <div class="left">Personal</div>
+              <div class="right">7:00 Pm - 9:00 Pm</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="socials">
+        <a href="#"><img src="./assets/icons/facebook (1).png" /></a>
+        <a href="#"><img src="./assets/icons/instagram (2).png" /></a>
+        <a href="#"><img src="./assets/icons/telegram (2).png" /></a>
+        <a href="#"><img src="./assets/icons/twitter (2).png" /></a>
+        <a href="#"> <img src="./assets/icons/youtube (1).png" /></a>
+      </div>
+
+      <div class="copy">
+        <div class="left">&copy; insolve - All rights reserved</div>
+        <div class="right">&copy; sherifd33n, 2024</div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper", {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        freeMode: true,
+        loop: true,
+        speed: 1000,
+        autoplay: {
+          delay: 500,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          700: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
